@@ -1,0 +1,76 @@
+Feature: Lab Settings
+
+############## 1
+  Scenario: Enter Lab Settings
+    When Login to Easytox using credentials cgilabadmin/Welcome@123
+    Then User login should be successful.
+
+    When Select Lab -> Lab Settings.
+    Then Lab Settings screen should be displayed.
+
+    When Upload a file to 'Lab Logo'.
+    Then File with logo should be uploaded successfully.
+
+    When Verify that the logo in the file should be displayed beside 'Lab Logo' input box.
+    Then Uploaded logo should be displayed beside 'Lab Logo' input box.
+
+    When Enter Email Pin
+    Then Email Pin should be entered successfully. Pin should be encrypted.
+
+    When Verify that entered Email Pin is displayed beside 'Email Pin' input box.
+    Then Entered Pin number should be displayed beside 'Email Pin' input box.
+
+    When Enter a number in CLIA field.
+    Then User should be able to enter CLIA number
+
+    When Enter a value in Lab Director field.
+    Then User should be able to enter a valid Lab Director.
+
+    When Enter a value in Fax Number field.
+    Then Fax Number should be entered successfully.
+
+    When Verify the report template options.
+    Then Following four radio options should be available for Report template: Standard Template, Tabular Template, Colour Template, Chart Template
+
+    When Choose any report template
+    Then User should be able to select desired report template.
+
+    When Click Update
+    Then Lab Setting should be saved successfully.
+
+############### 2
+  Scenario: Add Contact to Lab Settings
+    When Login to Easytox using credentials cgilabadmin/Welcome@123
+    Then User login should be successful.
+
+    When Select Lab -> Lab Settings.
+    Then Lab Settings screen should be displayed.
+
+    When Click on 'Add Contact' icon.
+    Then 'Contact Info' section should be displayed in the bottom of the screen.
+
+    When Enter the required details.
+    Then Following values should be entered successfully: Contact Name, Contact Email, Contact Fax, Contact Phone
+
+    When Click Update.
+    Then Contact information should be saved successfully.
+
+############### 3
+  Scenario: Verify Lab Logo in the report.
+    When Login to Easytox using credentials cgilabadmin/Welcome@123
+    Then User login should be successful.
+
+    When Select Lab -> Lab Settings.
+    Then Lab Settings screen should be displayed.
+
+    When Make a note of lab logo.
+    Then Lab logo should be remembered.
+
+    When Go to Case List
+    Then Case List screen should be displayed.
+
+    When Select a report by clicking on PDF icon against any existing case.
+    Then Report should be opened successfully.
+
+    When Verify the lab logo on the top left of the report.
+    Then Lab Logo should be displayed same as the logo noted in Step 3 above.

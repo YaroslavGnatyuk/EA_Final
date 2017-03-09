@@ -1,0 +1,302 @@
+Feature: Audit and User log
+
+  ################  1
+  Scenario: Create a Lab
+    When Login with Superadmin/admin credentials
+    Then Lab List screen should be displayed
+
+    When Select '+' icon next to search box
+    Then Add Lab page should be open
+
+    When Enter lab name as 'Sujana Lab' and enter all the required details and click on 'Submit'
+    Then Added Lab should be displayed in the list
+
+
+  ################### 2
+  Scenario: Create a Lab Admin
+    When Login with Superadmin/admin credentials
+    Then Lab List screen should be displayed
+
+    When Select 'Sujana Lab' from the lab list
+    Then Update Lab screen should be displayed
+
+    When Click 'Add User' icon
+    Then Add Lab Admin user screen should be displayed
+
+    When Enter 'username/password' as 'Snlabadmin/Test@123' and all the other required information and click 'Add User'
+    Then Lab Admin should be created successfully and displayed in User List
+
+    ################  3
+  Scenario: Create a Lab User
+
+    When Login with 'Snlabadmin/Test@123' credentials
+    Then Case List screen should be displayed
+
+    When Select Settings -> User
+    Then User List screen should be displayed
+
+    When Click on '+' icon beside Search box
+    Then Add Lab User screen should be displayed
+
+    When Enter Username/Password as 'labuserone/Test@123', Role as 'Lab_Technician' and enter all the other required information and click Submit
+    Then labuserone should be added to the user list
+
+
+  ################## 4
+  Scenario Outline: Create a Lab Client
+    When Login with 'Snlabadmin/Test@123' credentials
+    Then Case List screen should be displayed
+
+    When Select Settings -> Lab Client.
+    Then LabClient List screen should be displayed
+
+    When Click on '+' icon beside Search box.
+    Then Add Lab Client screen should be displayed
+
+    When Enter business name as <businessName> all required information and click Submit
+    Then <businessName> should be added to the LabClient list
+    Examples:
+      | businessName  |
+      | SlabClientOne |
+      | SlabClientTwo |
+
+    ##############  5
+
+  Scenario Outline: Create a Lab Physician
+    When Login with 'Snlabadmin/Test@123' credentials
+    Then Case List screen should be displayed
+
+    When Select Settings -> Physician.
+    Then Physician List screen should be displayed.
+
+    When Click on '+' icon beside search box
+    Then Add Physician screen should be displayed
+
+    When Enter Username as <UserName>, Password as 'Test@123' and enter all the other required information and click Submit
+    Then <UserName> should be added to the physician list
+    Examples:
+      | UserName |
+      | SPhyOne  |
+      | SPhyTwo  |
+
+  ############# 6
+  Scenario: Verify Audit Log
+    When Login with 'Snlabadmin/Test@123' credentials
+    Then Case List screen should be displayed
+
+    When Select Settings -> Audit Log
+    Then Audit Log Screen should be displayed
+
+    When Verify the values in 'Lab Client' drop down
+    Then 'SlabClientOne' and 'SlabClientTwo' values should be displayed
+
+    When Verify for other values in 'lab Client' drop down
+    Then No other values should be displayed in the Lab Client drop down
+
+    When Verify the values in 'User' drop down
+    Then 'SNlabadmin', 'SPhyOne', 'SPhyTwo', 'labuserone' values should be displayed in the User drop down
+
+    When Verify for other values in 'User' drop down
+    Then No other values should be displayed in the User drop down
+
+    When Verify the columns displayed in the Audit Log
+    Then Following columns should be displayed in Audit Log: Modified by, Lab, Lab Client, Date/Time, Table Name, Column Name, Old Value, New Value, Event Type
+
+    When Verify the values under 'Modified By' column
+    Then Only either of the following values should be displayed under 'Modified By' column: 'SNlabadmin', 'SPhyOne', 'SPhyTwo', 'labuserone'. No other values than above four should be displayed under 'Modified By' column
+
+    When Verify the values under 'Lab' column
+    Then Value under 'Lab' column should be 'Sujana Lab' always
+
+    When Verify the values under 'Lab Client' column
+    Then Value under 'Lab Client' column should be 'SLabClientOne' or 'SLabClientTwo' only. No other values should be displayed
+
+    When Verify the values under 'Date/Time' column
+    Then Date and Time of the individual events in the formats 'DD/MMM/YYYY' and 'HH:MM:SS' respectively should be displayed
+
+    When Verify the values in other columns
+    Then Respective table updates should be displayed appropriately for each event
+
+  ################### 7
+  Scenario: Verify Audit Log Filters
+    When Login with 'Snlabadmin/Test@123' credentials
+    Then Case List screen should be displayed
+
+    When Select Settings -> Audit Log
+    Then Audit Log Screen should be displayed
+
+    When Select a value from 'Lab Client' drop down and click Search
+    Then Results corresponding to selected Lab Client should be displayed
+
+    When Select a value from 'User' drop down and click Search
+    Then Results corresponding to selected User should be displayed
+
+    When Select From and To Dates in the Date Range and click Search
+    Then Only records between the selected date range should be displayed
+
+    When Enter a value 'Table Name' field and click Search
+    Then All the records with entered Table Name should be displayed
+
+    When Select an Event Type from the drop down and click Search
+    Then All the records matchin selected 'Event Type' should be displayed
+
+    When Select values from two or more filters and click Search
+    Then Records as per the entered search criteria should be displayed
+
+
+    ##################### 8
+  Scenario Outline: Verify data Sorting in Audit Log
+    When Login with 'Snlabadmin/Test@123' credentials
+    Then Case List screen should be displayed
+
+    When Select Settings -> Audit Log
+    Then Audit Log Screen should be displayed
+
+    When Click on down arrow icon  on <column name>
+    Then Records should be displayed based on the ascending order of the selected column
+
+    When Click on up arrow icon  on <column name>
+    Then Records should be displayed based on the descending order of the selected column
+
+    Examples:
+      | column name |
+      | Modified By |
+      | Lab         |
+      | Lab Client  |
+      | Date/Time   |
+      | Table Name  |
+      | Column Name |
+      | Old Value   |
+      | New Value   |
+      | Event Type  |
+
+    ######################## 9
+
+  Scenario Outline: Verify the page navigation in Audit Log
+    When Login with 'Snlabadmin/Test@123' credentials
+    Then Case List screen should be displayed
+
+    When Select Settings -> Audit Log
+    Then Audit Log Screen should be displayed
+
+    When Navigate back and forth by selecting <page> in Audit Log
+    Then user should be navigate to the selected page
+
+    Then a text message 'Showing x to y of z entries' should be displayed on the bottom left corner of the list
+
+    Examples:
+      | page |
+      | Next |
+      | Prev |
+      | 1    |
+      | 2    |
+      | 3    |
+
+
+  ######################## 10
+  Scenario: Verify User Log
+    When Login with 'Snlabadmin/Test@123' credentials
+    Then Case List screen should be displayed
+
+    When Select Settings -> User Log
+    Then User Log Screen should be displayed
+
+    When Verify the values in 'Lab Client' drop down
+    Then 'SLabClientOne' and 'SlabClientTwo' values should be displayed
+
+    When Verify for other values in 'lab Client' drop down
+    Then No other values should be displayed in the Lab Client drop down
+
+    When Verify the values in 'User' drop down
+    Then 'SNlabadmin', 'SPhyOne', 'SPhyTwo', 'labuserone' values should be displayed in the User drop down
+
+    When Verify for other values in 'User' drop down
+    Then No other values should be displayed in the User drop down
+
+    When Verify the columns displayed in the User log
+    Then Following columns should be displayed in User Log: User Name, Lab, Lab Client, Visited URL, Date/Time, Case Acc#
+
+    When Verify the values under 'User Name' column
+    Then Only either of the following values should be displayed under 'User Name' column: 'SNlabadmin', 'SPhyOne', 'SPhyTwo', 'labuserone'. No other values other than above four should be displayed under 'User Name' column
+
+    When Verify the values under 'Lab' column in User Log
+    Then Value under 'Lab' column should be 'Sujana Lab' always
+
+    When Verify the values under 'Lab Client' column in User Log
+    Then Value under 'Lab Client' column should be 'SLabClientOne' or 'SLabClientTwo' only. No other values should be displayed
+
+    When Verify the values under 'Date/Time' column in User Log
+    Then Date and Time of the individual events in the formats 'DD/MMM/YYYY' and 'HH:MM:SS' respectively should be displayed in User Log
+
+    When Verify the values under Case Acc# column
+    Then Case Account #s, if any, should be displayed
+
+
+    ################### 11
+  Scenario: Verify User Log Filters
+    When Login with 'Snlabadmin/Test@123' credentials
+    Then Case List screen should be displayed
+
+    When Select Settings -> User Log
+    Then User Log Screen should be displayed
+
+    When Select a value from 'Lab Client' drop down and click Search.
+    Then Results corresponding to selected Lab Client should be displayed.
+
+    When Select a value from 'User' drop down and click Search.
+    Then Results corresponding to selected User should be displayed.
+
+    When Select From and To Dates in the Date Range and click Search.
+    Then Only records between the selected date range should be displayed.
+
+    When Select values from two or more filters and click Search.
+    Then Records as per the entered search criteria should be displayed.
+
+  ###################### 12
+  Scenario Outline: Verify data Sorting in User Log
+    When Login with 'Snlabadmin/Test@123' credentials
+    Then Case List screen should be displayed
+
+    When Select Settings -> User Log
+    Then User Log Screen should be displayed
+
+    When In User log click on down arrow icon  on <column name>
+    Then Records should be displayed based on the ascending order of the selected column.
+
+    When In User Log click on up arrow icon  on <column name>
+    Then Records should be displayed based on the descending order of the selected column.
+
+    Examples:
+      | column name |
+      | User Name   |
+      | Lab         |
+      | Lab Client  |
+      | Visited URL |
+      | Date/Time   |
+      | Case Acc#   |
+
+  ################## 13
+
+  Scenario Outline: Verify the page navigation in User Log
+    When Login with 'Snlabadmin/Test@123' credentials
+    Then Case List screen should be displayed
+
+    When Select Settings -> User Log
+    Then User Log Screen should be displayed
+
+    When Navigate back and forth by selecting <page> in Audit Log
+    Then user should be navigate to the selected page
+
+    Then a text message 'Showing x to y of z entries' should be displayed on the bottom left corner of the list
+
+    Examples:
+      | page |
+      | Next |
+      | Prev |
+      | 1    |
+      | 2    |
+      | 3    |
+
+
+
+

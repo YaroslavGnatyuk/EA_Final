@@ -1,0 +1,212 @@
+Feature: Lab client
+
+
+  Scenario: Verify creation of a new lab client
+    Given Login in web app
+    When Select Settings -> Lab Client
+    Then Lab Client List screen with list of Clients is displayed
+
+    When Click Add Lab Client '+' icon displayed
+    Then Add Lab Client screen is displayed
+
+    When Enter all the information in the screen and click Submit
+    Then New lab client is added successfully and newly added lab client is listed in the Lab Client List screen
+
+    When Click '+' icon against newly created lab client
+    Then Following values should be populated: Address - it should populate entered Address lines 1 and 2 Lab - it should populate Lab name
+
+  Scenario: Verify updating data for an existing lab client
+    Given Login in web app
+    When Select Settings -> Lab Client
+    Then Lab Client List screen with list of Clients is displayed
+
+    When Click on a lab client name
+    Then Update Lab Client screen is displayed
+
+    When Make changes as needed and click update
+    Then Lab client is updated successfully
+
+    When Click '+' icon against updated lab client
+    Then Following values should be updated with changed data: Address - it should populate entered Address lines 1 and 2 Lab - it should populate Lab name
+
+  Scenario: Verify adding location to a lab client
+    Given Login in web app
+    When Select Settings -> Lab Client
+    Then Lab Client List screen with list of Clients is displayed
+
+    When Click on a lab client name
+    Then Update Lab Client screen is displayed
+
+    When Click on the location Icon in the editPage
+    Then Add Lab Location' page should be displayed
+
+    When Enter Location Name and the remaining details and click on 'Submit'
+    Then Added location should be added to the Location list
+
+  Scenario: Verify editing location of a lab client
+    Given Login in web app
+    When Select Settings -> Lab Client
+    Then Lab Client List screen with list of Clients is displayed
+
+    When Click on the Location icon for a lab client
+    Then Lab Location List page should be displayed
+
+    When Click on the Edit icon for a lab location
+    Then Update Lab location page should be displayed
+
+    When Make required changes and click Update
+    Then Lab location should be updated successfully
+
+  Scenario: Verify adding user to a lab client
+    Given Login in web app
+    When Select Settings -> Lab Client
+    Then Lab Client List screen with list of Clients is displayed
+
+    When Click on a lab client name
+    Then Update Lab Client screen is displayed
+
+    When Click on the Add User Icon
+    Then Add Lab Client User page should be displayed
+
+    When Enter User information, Personal information and select lab information. click on 'Submit'
+    Then Added user should be added to the Lab Client User list
+
+  Scenario: Verify editing user to a lab client
+    Given Login in web app
+    When Select Settings -> Lab Client
+    Then Lab Client List screen with list of Clients is displayed
+
+    When Click on the User icon for a lab client
+    Then User List page should be displayed
+
+    When Click on the Edit Icon
+    Then Update Lab User page should be displayed
+
+    When Verify User Information section
+    Then User Information should be locked for editing
+
+    When Make changes to Personal Information and click update
+    Then Changes made to personal information should be saved successfully
+
+    When Click '+' icon against newly created user
+    Then Following values should be populated with updated information: Modified By Modified Date(with Timestamp)
+
+  Scenario: Verify locking access for a lab client user
+    Given Login in web app
+    When Select Settings -> Lab Client
+    Then Lab Client List screen with list of Clients is displayed
+
+    When Click on the User icon for a lab client
+    Then User List page should be displayed
+
+    When Click 'Lock' icon for any existing user
+    Then User should be locked and 'User locked successfully' message should be populated
+
+    When Logout and attempt logging in with the above lab user credentials
+    Then Account locked message should be populated and user should not be able to login to application
+
+
+  Scenario: Verify adding notes to a lab client
+    Given Login in web app
+    When Select Settings -> Lab Client
+    Then Lab Client List screen with list of Clients is displayed
+
+    When Click on a lab client name
+    Then Update Lab Client screen is displayed
+
+    When Click on the Add Notes Icon
+    Then Update Lab Client Notes page should be displayed
+
+    When Click '+' icon and add note. By clicking on '+' sign multiple times, multiple notes can be added.Click Update Notes
+    Then Notes for lab client should be saved successfully along with date stamp
+
+    When Click 'Edit' icon against the newly added note
+    Then Notes should be opened for edit
+
+
+  Scenario: Verify adding Clinician to a lab client
+    Given Login in web app
+    When Select Settings -> Lab Client
+    Then Lab Client List screen with list of Clients is displayed
+
+    When Click on the Clinician List icon for a Lab Client
+    Then Clinician List page should be displayed
+
+    When Click on the '+' Icon
+    Then Add Physician screen is displayed
+
+    When Enter all the information in the Physician screen and click Submit
+    Then Clinician should be added successfully
+
+
+  Scenario: Verify the Search Results
+    Given Login in web app
+    When Select Settings -> Lab Client
+    Then Lab Client List screen with list of Clients is displayed
+
+    When Enter any search criteria and click on search icon
+    Then Matching records with entered data should be displayed in the Lab Client list
+
+
+  Scenario Outline: Verify Number of records displayed per page
+    Given Login in web app
+    When Select Settings -> Lab Client
+    Then Lab Client List screen with list of Clients is displayed
+
+    When Verify the default number of records displayed
+    Then Default number '10' should be displayed in the dropdown box
+
+    When clicked on dropdown that shows <number> of records to be displayed on the Lab Client List page
+    Then user should be able to view and select the options from the list and the corresponding <number> of records should be displayed on the page
+    Examples:
+      | number |
+      | 10     |
+      | 25     |
+      | 50     |
+      | 100    |
+      | All    |
+
+
+  Scenario Outline: Verify data sorting
+    Given Login in web app
+    When Select Settings -> Lab Client
+    Then Lab Client List screen with list of Clients is displayed
+
+    When Click on 'v' down arrow icon on <sorting column>
+    Then Records should be displayed based on the ascending order of the selected field
+
+    When Click on Up arrow icon on <sorting column>
+    Then Records should be displayed based on the descending order of the selected field
+    Examples:
+      | sorting column |
+      | City           |
+      | State          |
+      | Zip            |
+      | Contact Person |
+      | Contact Number |
+      | Email          |
+
+
+  Scenario Outline: Verify the page navigation
+    Given Login in web app
+    When Select Settings -> Lab Client
+    Then Lab Client List screen with list of Clients is displayed
+
+
+    When Navigate back and forth by selecting page numbers <page>
+    Then User should be navigate to the selected page
+
+    Then A text message 'Showing x to y of z entries' should be displayed on the bottom left corner of the list
+    Examples:
+      | page |
+      | Next |
+      | Prev |
+      | 1    |
+      | 2    |
+      | 3    |
+
+
+
+
+
+

@@ -1,0 +1,99 @@
+Feature: Lab Physician
+
+
+  Scenario: Verify adding a new physician
+    Given Sign in web app
+    When Select Settings -> Physician
+    Then Physician List screen is displayed
+
+    When Click Add Physician '+' icon
+    Then Add Physician page is displayed
+
+    When Enter all the data in the screen and click Submit
+    Then New Physician is created successfully
+
+
+  Scenario: Verify updating a physician
+    Given Sign in web app
+    When Select Settings -> Physician
+    Then Physician List screen is displayed
+
+    When Click Edit icon for an existing physician
+    Then Update Physician screen is displayed
+
+    When Verify Clinician Information section
+    Then Clinician Information should be locked for editing
+
+    When Make all required changes and click Update
+    Then Changes should be reflected appropriately
+
+  Scenario Outline: Verify the Search Results
+    Given Sign in web app
+    When Select Settings -> Physician
+    Then Physician List screen with list of Physicians should be displayed
+
+    When Enter <search criteria> and click on search icon
+    Then Matching records with entered data should be displayed in the Lab Physician list, <cellNumber>, <search criteria>
+    Examples:
+      | search criteria | cellNumber |
+      | JimPhys         | 1          |
+      | Jim Phys        | 2          |
+      | Dr              | 4          |
+      | 11111           | 5          |
+      | 11111           | 6          |
+
+  Scenario Outline: Verify Number of records displayed per page
+    Given Sign in web app
+    When Select Settings -> Physician
+    Then Physician List screen with list of Physicians should be displayed
+
+    When Verify the default num of records displayed
+    Then Default num '10' should be displayed in the dropdown box
+
+    When Click on dropdown that shows <number> of records to be displayed on the page
+    Then User should be able to view and select the options from the list and the corresponding <number> of records should be displayed on the page
+
+    Examples:
+      | number |
+      | 10     |
+      | 25     |
+      | 50     |
+      | 100    |
+      | All    |
+
+  Scenario Outline: Verify data sorting
+    Given Sign in web app
+    When Select Settings -> Physician
+    Then Physician List screen with list of Physicians should be displayed
+
+    When Click on down arrow icon on <sorting column>
+    Then Records should be displayed  on the ascending order of the selected field
+
+    When Click on up arrow icon on <sorting column>
+    Then Records should be displayed  on the descendig order of the selected field
+
+    Examples:
+      | sorting column |
+      | Username       |
+      | Name           |
+      | Lab Clients    |
+      | Salutation     |
+      | Medicare Num   |
+      | Medicaid Num   |
+
+  Scenario Outline: Verify the page navigation
+    Given Sign in web app
+    When Select Settings -> Physician
+    Then Physician List screen with list of Physicians should be displayed
+
+    When Navigate back and forth by selecting page number <page>
+    Then User should be navigate to the selected page.
+
+    Then A text message 'Showing x to y of z entries' should be displayed on the bottom left corner of the list.
+    Examples:
+      | page |
+      | Next |
+      | Prev |
+      | 1    |
+      | 2    |
+
