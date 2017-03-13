@@ -7,35 +7,21 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.easytox.automation.driver.DriverBase;
+import com.easytox.automation.utils.WebElementHelper;
+
+
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import cucumber2project.DataStorage;
 
-public class Superadmin_forgotpasswd_page {
+public class Superadmin_forgotpasswd_page extends CommonCodeForAll {
 
-	private static final String USER_NAME = "j_username";
-	private static final String PAGE_ID = "superadmin";
-	private static final String PASSWD = "j_password";
-	private static final String PAGE_PSWD ="admi11n";
-	private static final String Lab_Profile_URL ="http://bmtechsol.com:8080/easytox/lab/list";
-	private WebDriver driver;
-	
-
-	
-	public codePlace(){
-		
-		DataStorage.getDriver();
-		driver = DataStorage.getDriverType();
-	}
-	
-
-	
 	@Given("^I am on easytox login page$")
 	public void I_am_on_easytox_login_page() throws Throwable {
 	    
 		
-		driver.get("http://bmtechsol.com:8080/easytox/");		 
+		driver.get(CommonCodeForAll.URL);		 
 		
 		 driver.manage().window().maximize();
 		 credentials(driver);
@@ -49,8 +35,7 @@ public class Superadmin_forgotpasswd_page {
 		WebDriverWait wait = new WebDriverWait(driver,20);
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("html/body/div[1]/div/div/div/div[3]/a")));
 		
-		driver.findElement(By.xpath("html/body/div[1]/div/div/div/div[3]/a")).click();
-		
+		driver.findElement(By.xpath("html/body/div[1]/div/div/div/div[3]/a")).click();	
 		
 	}
 
@@ -65,41 +50,7 @@ public class Superadmin_forgotpasswd_page {
 		
 	}			
 	
-	public static void credentials(WebDriver driver2)
-	{
+	
 		
-			WebElement user =  driver2.findElement(By.name(USER_NAME));
-			user.clear();
-			user.sendKeys(PAGE_ID);
-			
-			WebElement pwd = driver2.findElement(By.name(PASSWD));
-			 pwd.clear();
-			 pwd.sendKeys(PAGE_PSWD);		 
-			 driver2.findElement(By.xpath("//*[@id=\"loginform\"]/div[3]/div/button")).click();
-		
-	}
-	
-	
-	public static void  validation(WebDriver driver3) throws Throwable 
-	{
-		Thread.sleep(2000);
-		String currentUrl = Lab_Profile_URL;
-	    String curtUrlDriver = driver3.getCurrentUrl();	
-	    Assert.assertNotEquals(currentUrl, curtUrlDriver);
-		
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 }
