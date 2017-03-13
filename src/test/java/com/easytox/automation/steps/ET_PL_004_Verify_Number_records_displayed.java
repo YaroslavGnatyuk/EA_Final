@@ -1,19 +1,15 @@
 package com.easytox.automation.steps;
 
+import com.easytox.automation.driver.DriverBase;
+import com.easytox.automation.utils.WebElementHelper;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-
-import com.easytox.automation.driver.DriverBase;
-import com.easytox.automation.utils.WebElementHelper;
-
-import PlaceofCode.codePlace.Patient;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
-import cucumber2project.DataStorage;
 
 public class ET_PL_004_Verify_Number_records_displayed {
 

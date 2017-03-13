@@ -1,17 +1,13 @@
-package com.easytox.automation.steps.accessionPrefix;
+package com.easytox.automation.steps;
 
+import com.easytox.automation.constants.Constants;
+import com.easytox.automation.driver.DriverBase;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-
-import com.easytox.automation.constants.Constants;
-import com.easytox.automation.driver.DriverBase;
-import com.easytox.automation.utils.WebElementHelper;
-
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
 
 public class SortingOrderSteps {
 	private static final String USERNAME = "lavanya1";
