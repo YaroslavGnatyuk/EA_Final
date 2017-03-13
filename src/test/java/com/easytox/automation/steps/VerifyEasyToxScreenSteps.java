@@ -1,4 +1,4 @@
-package com.easytox.automation.steps.labAdmin.verifyLabAdmin;
+package com.easytox.automation.steps;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;

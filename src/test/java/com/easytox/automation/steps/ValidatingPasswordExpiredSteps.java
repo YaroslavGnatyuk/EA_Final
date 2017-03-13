@@ -1,4 +1,4 @@
-package com.easytox.automation.steps.labAdmin.verifyLabUserList;
+package com.easytox.automation.steps;
 
 import java.util.List;
 

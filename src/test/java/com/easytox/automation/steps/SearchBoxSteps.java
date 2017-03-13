@@ -1,16 +1,15 @@
-package com.easytox.automation.steps.accessionPrefix;
+package com.easytox.automation.steps;
 
-import java.util.List;
-
+import com.easytox.automation.driver.DriverBase;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 
-import com.easytox.automation.driver.DriverBase;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import java.util.List;
 
 public class SearchBoxSteps {
 	

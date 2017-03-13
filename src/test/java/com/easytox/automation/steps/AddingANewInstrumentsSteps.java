@@ -1,4 +1,4 @@
-package com.easytox.automation.steps.instruments;
+package com.easytox.automation.steps;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -2,18 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa8f8363-0402-462c-b6b3-206bfdbd90b7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/constants/Constants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/easytox-automation.iml" afterPath="$PROJECT_DIR$/easytox-automation.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/CheckingMessageOfNoOfResultsDisplayedSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/CheckingMessageOfNoOfResultsDisplayedSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_003_Addinga_new_Patient.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_003_Addinga_new_Patient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_004_Verify_Number_records_displayed.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_004_Verify_Number_records_displayed.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_007_editing_patient_information.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_007_editing_patient_information.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_008_verify_insurance_details.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_008_verify_insurance_details.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_009_verify_pagination.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_009_verify_pagination.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/SelectPrefixTypeSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/SelectPrefixTypeSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/SortingOrderSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/SortingOrderSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/AddPhysiciansWestSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/AddPhysiciansWestSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/AddPhysiciansZestSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/AddPhysiciansZestSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/AddingANewCaseSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/AddingANewCaseSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/AddingANewInstrumentsSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/AddingANewInstrumentsSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ClickOnEditUnderActionColumnSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ClickOnEditUnderActionColumnSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/DeletingCaseUnderActionColumnSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/DeletingCaseUnderActionColumnSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/EditCaseWithAccessionNumberSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/EditCaseWithAccessionNumberSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/EditingACaseUnderActionColumnSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/EditingACaseUnderActionColumnSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/LoginAsALabClinicianSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/LoginAsALabClinicianSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/NavigateToTheSelectedScreenSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/NavigateToTheSelectedScreenSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/NavigatingToNextPrevPageSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/NavigatingToNextPrevPageSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/NavigatingToSelectedScreenSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/NavigatingToSelectedScreenSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/NoOfRecordsToBeDisplayedSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/NoOfRecordsToBeDisplayedSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/OutBoundTabSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/OutBoundTabSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/SearchBoxSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/SearchBoxSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/SelectTheFinalizedEndDateSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/SelectTheFinalizedEndDateSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/SelectTheFinalizedStartDateSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/SelectTheFinalizedStartDateSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/Superadmin_locked_ntimes.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/Superadmin_locked_ntimes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ValidatingAccountExpiratonSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ValidatingAccountExpiratonSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ValidatingEnabledDisabledAccessForALabUserSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ValidatingEnabledDisabledAccessForALabUserSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ValidatingPasswordExpiredSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ValidatingPasswordExpiredSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ValidatingTheLockedUnlockedSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ValidatingTheLockedUnlockedSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyAddUserToLabSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyAddUserToLabSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyCreationOfANewLabUserSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyCreationOfANewLabUserSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyDataSortingSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyDataSortingSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyDisablingAccessLabUserSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyDisablingAccessLabUserSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyEasyToxScreenSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyEasyToxScreenSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyEnablingLabUserSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyEnablingLabUserSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyLabClientListSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyLabClientListSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyLockingAccessForLabUserSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyLockingAccessForLabUserSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyNoOfRecordsDisplayedPerPageSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyNoOfRecordsDisplayedPerPageSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyNoOfRecordsDisplayedSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyNoOfRecordsDisplayedSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyNoOfRecordsSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyNoOfRecordsSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyPageNavigationSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyPageNavigationSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyPaginationSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyPaginationSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifySearchResultsSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifySearchResultsSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheCheckBoxSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheCheckBoxSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheContentInFailureTabSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheContentInFailureTabSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheContentInInboundTabSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheContentInInboundTabSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheContentInPendingTabSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheContentInPendingTabSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheContentInSentTabSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheContentInSentTabSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheDataSortingSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheDataSortingSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheEditSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheEditSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheLabInformationSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheLabInformationSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyThePaginationSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyThePaginationSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyThePrintOrderSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyThePrintOrderSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheReportSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheReportSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheSearchResultsSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheSearchResultsSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheUserListSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheUserListSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyUnlockingAccessForLabUserSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyUnlockingAccessForLabUserSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyUpdatingLabUserSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyUpdatingLabUserSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyingForInstrumentsLabInformationSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyingForInstrumentsLabInformationSteps.java" />
     </list>
     <ignored path="EA_Final.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,118 +76,102 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/constants/Constants.java">
+      <file leaf-file-name="VerifyTheLabInformationSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheLabInformationSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ET_LI_008_VerifyingaUserListandLabClientListunderActionColumn.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_LI_008_VerifyingaUserListandLabClientListunderActionColumn.java">
+      <file leaf-file-name="VerifyThePaginationSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyThePaginationSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ET_PL_008_verify_insurance_details.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_008_verify_insurance_details.java">
+      <file leaf-file-name="VerifyThePrintOrderSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyThePrintOrderSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ET_PL_004_Verify_Number_records_displayed.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_004_Verify_Number_records_displayed.java">
+      <file leaf-file-name="VerifyTheReportSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheReportSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="0">
+              <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VerifyTheUserListSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheUserListSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VerifyTheSearchResultsSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheSearchResultsSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VerifyUnlockingAccessForLabUserSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyUnlockingAccessForLabUserSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VerifyUpdatingLabUserSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyUpdatingLabUserSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebsiteSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/WebsiteSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
               <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ET_PL_009_verify_pagination.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_009_verify_pagination.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ET_PL_007_editing_patient_information.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_007_editing_patient_information.java">
+      <file leaf-file-name="PasswordResetPageSteps.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/security/password_reset/case_1/PasswordResetPageSteps.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortingOrderSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/SortingOrderSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectPrefixTypeSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/SelectPrefixTypeSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ET_PL_003_Addinga_new_Patient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_003_Addinga_new_Patient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckingMessageOfNoOfResultsDisplayedSteps.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/CheckingMessageOfNoOfResultsDisplayedSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
               <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -172,15 +196,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/constants/Constants.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_008_verify_insurance_details.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_004_Verify_Number_records_displayed.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_009_verify_pagination.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_007_editing_patient_information.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/SortingOrderSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/SelectPrefixTypeSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_003_Addinga_new_Patient.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/CheckingMessageOfNoOfResultsDisplayedSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/AddingANewInstrumentsSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/AddPhysiciansZestSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/AddPhysiciansWestSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ClickOnEditUnderActionColumnSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/DeletingCaseUnderActionColumnSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/EditCaseWithAccessionNumberSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/EditingACaseUnderActionColumnSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/LoginAsALabClinicianSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/NavigateToTheSelectedScreenSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/NavigatingToNextPrevPageSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/NavigatingToSelectedScreenSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/NoOfRecordsToBeDisplayedSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/OutBoundTabSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/SearchBoxSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/SelectTheFinalizedEndDateSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/SelectTheFinalizedStartDateSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/Superadmin_locked_ntimes.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ValidatingAccountExpiratonSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ValidatingEnabledDisabledAccessForALabUserSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ValidatingPasswordExpiredSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ValidatingTheLockedUnlockedSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyAddUserToLabSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyCreationOfANewLabUserSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyDataSortingSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyDisablingAccessLabUserSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyEasyToxScreenSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyEnablingLabUserSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyingForInstrumentsLabInformationSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyLabClientListSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyLockingAccessForLabUserSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyNoOfRecordsDisplayedPerPageSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyNoOfRecordsDisplayedSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyNoOfRecordsSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyPageNavigationSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyPaginationSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifySearchResultsSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheCheckBoxSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheContentInFailureTabSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheContentInInboundTabSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheContentInPendingTabSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheContentInSentTabSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheDataSortingSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheEditSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheLabInformationSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyThePaginationSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyThePrintOrderSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheReportSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheUserListSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheSearchResultsSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyUnlockingAccessForLabUserSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyUpdatingLabUserSteps.java" />
       </list>
     </option>
   </component>
@@ -296,6 +362,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EA_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EA_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="steps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -404,12 +500,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489432621488</updated>
-      <workItem from="1489432625316" duration="419000" />
+      <workItem from="1489432625316" duration="1307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="419000" />
+    <option name="totallyTimeSpent" value="1307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1330" y="21" width="1630" height="1029" extended-state="6" />
@@ -449,99 +545,413 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/constants/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_LI_008_VerifyingaUserListandLabClientListunderActionColumn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/SelectPrefixTypeSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_003_Addinga_new_Patient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/SortingOrderSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_008_verify_insurance_details.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_004_Verify_Number_records_displayed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_009_verify_pagination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ET_PL_007_editing_patient_information.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/CheckingMessageOfNoOfResultsDisplayedSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/Superadmin_forgotpasswd_page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="72">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/Superadmin_locked_ntimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/SuperAdmin_request_submitMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/Superadminlogin_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/Superdmin_invalid_credentials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/Testing_ProfilePage_Display.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/TestingProfileAddingNewProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/TestingProfileDropDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/TestingProfileEditWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/TestingProfileVerifyingNavigation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/TestingProfileViewDataSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/TestProfileSearchResults.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/Two_Types_Test_Compound_Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ValidatingAccountExpiratonSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ValidatingEnabledDisabledAccessForALabUserSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ValidatingPasswordExpiredSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ValidatingTheLockedUnlockedSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/ValidityTestGroupImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyAddUserToLabSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyCreationOfANewLabUserSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyDataSortingSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyDisablingAccessLabUserSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyEasyToxScreenSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyEnablingLabUserSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyingForInstrumentsLabInformationSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyLabClientListSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyLockingAccessForLabUserSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyNoOfRecordsDisplayedPerPageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyNoOfRecordsDisplayedSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyNoOfRecordsSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyPageNavigationSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyPaginationSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifySearchResultsSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheCheckBoxSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheContentInFailureTabSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheContentInInboundTabSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheContentInPendingTabSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheContentInSentTabSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheDataSortingSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheEditSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheLabInformationSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyThePaginationSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyThePrintOrderSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheReportSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheUserListSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyTheSearchResultsSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyUnlockingAccessForLabUserSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/VerifyUpdatingLabUserSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/WebsiteSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/easytox/automation/steps/security/password_reset/case_1/PasswordResetPageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
